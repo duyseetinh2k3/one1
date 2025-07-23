@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 10h sáng Việt Nam mỗi ngày
+    - cron: '0 1 * * *'  # 8h sáng Việt Nam mỗi ngày
   workflow_dispatch:
 
 jobs:
@@ -16,8 +16,8 @@ jobs:
 
       - name: Setup Git config
         run: |
-          git config user.name "YOUR_GITHUB_USERNAME"
-          git config user.email "YOUR_GITHUB_EMAIL"
+          git config user.name "duyseetinh2k3"
+          git config user.email "duyseetinh2k3@gmail.com"
 
       - name: Commit and push changes
         run: |
