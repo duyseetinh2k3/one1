@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 8h sáng Việt Nam mỗi ngày
+    - cron: '0 3 * * *'  # 10h sáng Việt Nam mỗi ngày
   workflow_dispatch:
 
 jobs:
